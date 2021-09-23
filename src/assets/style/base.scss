@@ -1,0 +1,26 @@
+svg-icon {
+  display: inline-block;
+  line-height: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: inherit;
+    font-size: 1em;
+    width: 1em;
+    height: auto;
+    line-height: 1;
+  }
+  &:not(.is-colored) {
+    * {
+      fill: currentColor;
+    }
+  }
+}
+
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
