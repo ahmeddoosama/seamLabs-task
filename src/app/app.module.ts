@@ -11,6 +11,7 @@ import { SharedModule } from './shared/shared.module';
 import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { MobileSideNavComponent } from './core/components/mobile-side-nav/mobile-side-nav.component';
+import { MobileNavComponent } from './core/components/mobile-nav/mobile-nav.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { MobileSideNavComponent } from './core/components/mobile-side-nav/mobile
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MobileSideNavComponent
+    MobileSideNavComponent,
+    MobileNavComponent
   ],
   imports: [
     BrowserModule,

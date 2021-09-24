@@ -7,7 +7,7 @@ import { NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'admin-fe';
+  title = 'seamLab';
 
   constructor(public router: Router,) {
   }

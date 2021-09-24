@@ -1,4 +1,4 @@
-<footer class="bg-primary1 text-white font-Inter pt-20">
+<footer class="bg-primary1 text-white font-Inter pt-20 pb-100-px md:pb-0">
     <div class="container">
         <div class="grid grid-cols-12 pb-12">
             <div class="col-span-12 md:col-span-5 xl:col-span-6 mb-7 md:mb-0">
@@ -26,24 +26,24 @@
                     <div class="col-span-6 md:col-span-4 mb-7 md:mb-0">
                         <h5 class="text-xl font-semibold mb-5">Community</h5>
                         <ul *ngFor="let link of ['Learners', 'Partners', 'Developers', 'Beta Testers', 'Translators', 'Blog', 'Tech Blog', 'Teaching Center']">
-                            <li class="mb-6">
-                                <a>{{link}}</a>
+                            <li class="mb-6 cursor-pointer">
+                                <a [title]="link">{{link}}</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-span-6 md:col-span-4 mb-7 md:mb-0">
                         <h5 class="text-xl font-semibold mb-5">Informations</h5>
                         <ul *ngFor="let link of ['About', 'Pricing', 'Blog', 'Careers', 'Contact', 'Blog']">
-                            <li class="mb-6">
-                                <a>{{link}}</a>
+                            <li class="mb-6 cursor-pointer">
+                                <a [title]="link">{{link}}</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-span-6 md:col-span-4 mb-7 md:mb-0">
                         <h5 class="text-xl font-semibold mb-5">More</h5>
                         <ul *ngFor="let link of ['Press', 'Investors', 'Terms', 'Privacy', 'Help', 'Accessibility', 'Contact', 'Articles', 'Directory', 'Affiliates']">
-                            <li class="mb-6">
-                                <a>{{link}}</a>
+                            <li class="mb-6 cursor-pointer">
+                                <a [title]="link">{{link}}</a>
                             </li>
                         </ul>
                     </div>
@@ -55,16 +55,16 @@
             <p class="mb-4 md:mb-0">Copyright © 2021 Tung Chi Vo</p>
             <div class="flex items-center">
                 <a class="mr-3" href="#">
-                    <img class="w-6 h-6" src="../../../../assets/images/icons/logo-fb-simple.svg">
+                    <img class="w-6 h-6" src="/assets/images/icons/logo-fb-simple.svg" title="Facebook" alt="icon" />
                 </a>
                 <a class="mr-3" href="#">
-                    <img class="w-6 h-6" src="../../../../assets/images/icons/logo-pinterest.svg">
+                    <img class="w-6 h-6" src="/assets/images/icons/logo-pinterest.svg" title="Pinterest" alt="icon">
                 </a>
                 <a class="mr-3" href="#">
-                    <img class="w-6 h-6" src="../../../../assets/images/icons/logo-twitter.svg">
+                    <img class="w-6 h-6" src="/assets/images/icons/logo-twitter.svg" title="Twitter" alt="icon">
                 </a>
                 <a class="mr-3" href="#">
-                    <img class="w-6 h-6" src="../../../../assets/images/icons/logo-instagram.svg">
+                    <img class="w-6 h-6" src="/assets/images/icons/logo-instagram.svg" title="Instagram" alt="icon">
                 </a>
             </div>
         </div>
