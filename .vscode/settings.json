@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "init",
         "Footer",
-        "Header"
+        "Header",
+        "Home"
     ]
 }

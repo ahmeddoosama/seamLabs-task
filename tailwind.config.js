@@ -113,6 +113,7 @@ module.exports = {
         "900-px": "900px",
         "1096-px": "1096px",
         "64-pres": "64%",
+        "72-pres": "72%",
       },
       maxWidth: {
         "95-px": "95px",
@@ -177,6 +178,7 @@ module.exports = {
         "50-px": "50px",
         "22-px": "22px",
         "32-px": "32px",
+        "45-px": "45px",
       },
       padding: {
         "6-px": "6px",
