@@ -55,71 +55,7 @@
 <section class="pb-12 md:pb-20">
     <div class="container">
         <h3 class="text-primary font-Georgian font-semibold text-5xl mb-9 text-center">Top Featured Courses</h3>
-        <div class="grid grid-cols-12 md:gap-8">
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img2.svg"
-                    courseLogo="../../../assets/images/courser-logo1.svg"
-                    courseTitle="User Research for User Experience Design"
-                    courseDesc="The Museum of Modern Art"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img3.svg"
-                    courseLogo="../../../assets/images/courser-logo2.svg"
-                    courseTitle="Buddhism and Modern Psychology"
-                    courseDesc="The Museum of Modern Art"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img4.svg"
-                    courseLogo="../../../assets/images/courser-logo3.svg"
-                    courseTitle="Introduction to Philosophy"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img5.svg"
-                    courseLogo="../../../assets/images/courser-logo2.svg"
-                    courseTitle="Advance on Seeing Through Photographs"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img6.svg"
-                    courseLogo="../../../assets/images/courser-logo3.svg"
-                    courseTitle="Think Again I: How to Understand Arguments"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img7.svg"
-                    courseLogo="../../../assets/images/courser-logo1.svg"
-                    courseTitle="User Research for User Experience Design"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img6.svg"
-                    courseLogo="../../../assets/images/courser-logo1.svg"
-                    courseTitle="User Research for User Experience Design"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img7.svg"
-                    courseLogo="../../../assets/images/courser-logo2.svg"
-                    courseTitle="Introduction to Logic and Critical Thinking"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-            <div class="col-span-12 md:col-span-6 xl:col-span-4">
-                <app-course-card
-                    courseImg="../../../assets/images/courser-img8.svg"
-                    courseLogo="../../../assets/images/courser-logo3.svg"
-                    courseTitle="Modern and Contemporary Art and Design"
-                    courseDesc="Duke University"></app-course-card>
-            </div>
-        </div>
+        <app-courses-group></app-courses-group>
     </div>
 </section>
 
@@ -158,38 +94,7 @@
 
 <section class="bg-secondary1 text-primary1 py-20 font-Inter">
     <div class="container">
-        <div class="bg-map bg-no-repeat bg-center">
-            <div class="grid grid-cols-12 md:gap-7">
-                <div class="col-span-12 md:col-span-6 lg:col-span-3 mb-6 md:mb-0">
-                    <div class="flex flex-col items-center justify-center">
-                        <img class="mb-1" src="/assets/images/publishesd-img.svg" alt="icon" />
-                        <p class="font-Georgian text-6xl font-semibold mb-3">768</p>
-                        <h6 class="text-secondary2 font-bold">COURSES PUBLISHED</h6>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-3 mb-6 md:mb-0">
-                    <div class="flex flex-col items-center justify-center">
-                        <img class="mb-1" src="/assets/images/instructors.svg" alt="icon" />
-                        <p class="font-Georgian text-6xl font-semibold mb-3">120</p>
-                        <h6 class="text-secondary2 font-bold">EXPERT INSTRUCTORS</h6>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-3 mb-6 md:mb-0">
-                    <div class="flex flex-col items-center justify-center">
-                        <img class="mb-1" src="/assets/images/learners.svg" alt="icon" />
-                        <p class="font-Georgian text-6xl font-semibold mb-3">8,300</p>
-                        <h6 class="text-secondary2 font-bold">HAPPY LEARNERS</h6>
-                    </div>
-                </div>
-                <div class="col-span-12 md:col-span-6 lg:col-span-3">
-                    <div class="flex flex-col items-center justify-center">
-                        <img class="mb-1" src="/assets/images/awrds.svg" alt="icon" />
-                        <p class="font-Georgian text-6xl font-semibold mb-3">32</p>
-                        <h6 class="text-secondary2 font-bold">AWARDS ACHIEVED</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <app-statistics></app-statistics>
     </div>
 </section>
 
